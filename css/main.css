@@ -1,0 +1,163 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    width: 1400px;
+    margin: auto;
+    height: auto;
+    
+    
+}
+
+#main-picture{ 
+    grid-column: span 4;
+    background: url(../assets/your_verse_hero.jpg) 50% 100% no-repeat; 
+    height: 538px;
+}
+
+.pic1{ background: url(../assets/promo_iphone5s.jpg) no-repeat; }
+
+.pic2{ background: url(../assets/promo_iphone5c.jpg) no-repeat; }
+
+.pic3{ background: url(../assets/promo_30_years.jpg) no-repeat; }
+
+.pic4{ background: url(../assets/promo_supplier_responsibility.jpg) no-repeat; }
+
+#mac-logo{
+    background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+}
+
+#ul-header{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 120px auto 0 auto;
+    width: 980px;
+    height: 36px;
+    border-radius: 4px;
+    background: #bdc3c7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#ul-header li{
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.nav-item{ width: 100%; }
+.header{ 
+    font: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif; 
+    color: white;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    line-height: 120px;
+    
+    font-weight: normal;
+    font-style: normal;
+    width: 980px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px;
+    width: 980px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 auto;
+    
+    
+}
+
+.watch{
+    width: 980px;
+    margin: 0 auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 28px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.smaller-pictures{
+    height: 200px;
+}
+
+.blue{
+    color: blue;
+}
+
+.footer-wrapper{ 
+    font: 10px/12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;    
+    
+    font-weight: lighter;
+    width: 980px;
+    margin: 0 auto;
+    color: #6e6e6e;
+}
+
+.ads{
+    width: 44%;
+    float: left;
+    margin: 0;
+}
+
+#ul-footer{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 51%;
+}
+
+#ul-footer li{
+    border-right: 1px solid #ccc;
+    margin-right: 5px;
+    line-height: 1.2;
+    padding-right: 5px;
+    color: blue;
+}
+
+
+#copyright{
+    display: inline;
+    margin: 0;
+    float: left;
+    clear: both;
+    width: 44%;
+
+}
+
+
+.box {
+    float: left;
+    
+  }
+
+  .footer-wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+input{
+    width: 80%;
+    height: 19px;
+    padding: 2px 18px 1px 22px;
+    background-image: none;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+}
